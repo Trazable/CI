@@ -13,5 +13,8 @@ RUN \
   wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
   # Unzip
   unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip -d "/usr/local/bin" && \
+  # Delete terraform zip
+  rm -rf terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
   # Install docker-compose
   pip install "docker-compose==${DOCKER_COMPOSE_VERSION}"
+  
