@@ -1,8 +1,8 @@
-FROM google/cloud-sdk:271.0.0-alpine
+FROM google/cloud-sdk:311.0.0-alpine
 
 ENV \
   TERRAFORM_VERSION=0.12.12 \
-  DOCKER_COMPOSE_VERSION=1.24.1
+  DOCKER_COMPOSE_VERSION=1.27.4
 
 RUN \
   # Necessary packages to install docker-compose on alpine version
