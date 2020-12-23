@@ -8,7 +8,7 @@ Builded on alpine linux
 
 This image contains the next binaries:
   - Google cloud 311.0.0
-  - Docker 17.12.0-ce
+  - Docker 19.03.11
   - Terraform 0.12.12
   - Docker-compose 1.27.4
 
