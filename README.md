@@ -7,9 +7,8 @@ Trazable docker image for CI use.
 Builded on alpine linux
 
 This image contains the next binaries:
-  - Google cloud 311.0.0
+  - Google cloud 341.0.0
   - Docker 19.03.11
-  - Terraform 0.12.12
   - Docker-compose 1.27.4
 
 # Docker Hub CI
