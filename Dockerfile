@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:419.0.0
+FROM google/cloud-sdk:419.0.0-alpine
 
 ENV DOCKER_COMPOSE_VERSION=1.27.4
 RUN \
